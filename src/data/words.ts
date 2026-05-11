@@ -302,6 +302,7 @@ export const WORDS: Word[] = [
   { id: 'zenith', word: 'zenith', pos: 'noun', greCategory: 2, connotation: 'positive', rootId: 'gaulois', prefixId: null, suffixId: null, definition: 'the highest point reached by a celestial body; the time at which something is most powerful', exampleSentence: 'The empire was at its zenith during the second century.', synonyms: ['peak', 'pinnacle', 'apex', 'acme'] },
   { id: 'avant-garde', word: 'avant-garde', pos: 'adjective', greCategory: 3, connotation: 'positive', rootId: 'avant', prefixId: null, suffixId: null, definition: 'new and experimental ideas and methods in art, music, or literature', exampleSentence: 'The gallery showcased avant-garde sculptures made from recycled materials.', synonyms: ['experimental', 'innovative', 'cutting-edge', 'pioneering'] },
   { id: 'candid', word: 'candid', pos: 'adjective', greCategory: 2, connotation: 'positive', rootId: 'franc', prefixId: null, suffixId: null, definition: 'truthful and straightforward; frank', exampleSentence: 'She appreciated his candid assessment of her work.', synonyms: ['frank', 'honest', 'forthright', 'direct'] },
+  { id: 'disenfranchisement', word: 'disenfranchisement', pos: 'noun', greCategory: 2, connotation: 'negative', rootId: 'franc', prefixId: 'pre-dis', suffixId: null, definition: 'the state of being deprived of a right or privilege, especially the right to vote', exampleSentence: 'The systematic disenfranchisement of rural voters drew fierce criticism from civil rights groups.', synonyms: ['deprivation', 'exclusion', 'marginalization', 'disempowerment'] },
 
   // ══════════════════════════════════════════════════════════════
   //  ENGLISH / OLD ENGLISH ROOTS
@@ -393,6 +394,7 @@ export const WORDS: Word[] = [
   { id: 'conspicuous', word: 'conspicuous', pos: 'adjective', greCategory: 2, connotation: 'neutral', rootId: 'spec-spic', prefixId: 'pre-com', suffixId: 'suf-ous', definition: 'standing out so as to be clearly visible; attracting notice or attention', exampleSentence: 'Her conspicuous absence from the ceremony raised immediate questions.', synonyms: ['noticeable', 'prominent', 'obvious', 'striking'] },
   { id: 'perspicuous', word: 'perspicuous', pos: 'adjective', greCategory: 2, connotation: 'positive', rootId: 'spec-spic', prefixId: 'pre-per', suffixId: 'suf-ous', definition: 'clearly expressed and easily understood; lucid; transparent', exampleSentence: 'The judge demanded more perspicuous reasoning from both sides.', synonyms: ['clear', 'lucid', 'intelligible', 'transparent'] },
   { id: 'introspective', word: 'introspective', pos: 'adjective', greCategory: 2, connotation: 'neutral', rootId: 'spec-spic', prefixId: 'pre-intro', suffixId: 'suf-ive', definition: 'examining one\'s own mental and emotional processes; given to self-examination', exampleSentence: 'The novel\'s introspective narrator questioned every motivation.', synonyms: ['reflective', 'thoughtful', 'contemplative', 'self-examining'] },
+  { id: 'specter', word: 'specter', pos: 'noun', greCategory: 2, connotation: 'negative', rootId: 'spec-spic', prefixId: null, suffixId: null, definition: 'a ghost or apparition; a haunting or disturbing prospect or threat', exampleSentence: 'The specter of unemployment haunted the town long after the factory closed.', synonyms: ['ghost', 'phantom', 'apparition', 'shadow', 'threat'] },
 
   // ── acer/acr (sharp/bitter) ────────────────────────────────────────────────
   { id: 'acrimony', word: 'acrimony', pos: 'noun', greCategory: 1, connotation: 'negative', rootId: 'acer-acr', prefixId: null, suffixId: 'suf-y', definition: 'bitterness or ill feeling, especially in speech or manner', exampleSentence: 'The divorce proceedings were marked by extraordinary acrimony.', synonyms: ['bitterness', 'rancor', 'hostility', 'ill will'] },
@@ -540,6 +542,7 @@ export const WORDS: Word[] = [
   // ── pond/pens (to weigh) ──────────────────────────────────────────────────
   { id: 'ponderous', word: 'ponderous', pos: 'adjective', greCategory: 2, connotation: 'negative', rootId: 'pond-pens', prefixId: null, suffixId: 'suf-ous', definition: 'slow and clumsy because of great weight; dull or laborious in style', exampleSentence: 'The ponderous bureaucratic procedures slowed every decision to a crawl.', synonyms: ['heavy', 'laborious', 'cumbersome', 'tedious'] },
   { id: 'preponderate', word: 'preponderate', pos: 'verb', greCategory: 3, connotation: 'neutral', rootId: 'pond-pens', prefixId: 'pre-pre', suffixId: 'suf-ate', definition: 'to be greater in number or importance; to predominate', exampleSentence: 'Evidence in favor of the theory preponderated over the objections.', synonyms: ['predominate', 'outweigh', 'dominate', 'prevail'] },
+  { id: 'dispensation', word: 'dispensation', pos: 'noun', greCategory: 3, connotation: 'neutral', rootId: 'pond-pens', prefixId: 'pre-dis', suffixId: null, definition: 'an exemption from a rule or usual requirement; a system or arrangement; formal distribution', exampleSentence: 'The Vatican granted a special dispensation allowing him to bypass the usual requirement.', synonyms: ['exemption', 'permission', 'release', 'privilege', 'arrangement'] },
 
   // ══════════════════════════════════════════════════════════════
   //  GREEK ROOTS — expanded vocabulary
@@ -627,5 +630,42 @@ export const WORDS: Word[] = [
 
   // ── fast (fastidium/squeamishness) ────────────────────────────────────────
   { id: 'fastidious', word: 'fastidious', pos: 'adjective', greCategory: 1, connotation: 'neutral', rootId: 'fast-root', prefixId: null, suffixId: 'suf-ous', definition: 'very attentive to accuracy and detail; having demanding standards; hard to please', exampleSentence: 'The fastidious editor corrected even the smallest typographic inconsistency.', synonyms: ['meticulous', 'exacting', 'scrupulous', 'finicky'] },
+
+  // ══════════════════════════════════════════════════════════════
+  //  POLITICAL, SOCIAL & ACADEMIC — new additions
+  // ══════════════════════════════════════════════════════════════
+
+  // ── hegemon (leader/dominance) ────────────────────────────────────────────
+  { id: 'hegemony', word: 'hegemony', pos: 'noun', greCategory: 2, connotation: 'negative', rootId: 'hegemon', prefixId: null, suffixId: null, definition: 'leadership or dominance of one country or social group over others', exampleSentence: 'The empire maintained its hegemony through military force and cultural influence.', synonyms: ['dominance', 'supremacy', 'dominion', 'authority', 'ascendancy'] },
+
+  // ── suffrag (vote/support) ────────────────────────────────────────────────
+  { id: 'suffrage', word: 'suffrage', pos: 'noun', greCategory: 2, connotation: 'positive', rootId: 'suffrag', prefixId: null, suffixId: null, definition: 'the right to vote in political elections', exampleSentence: 'The suffrage movement fought decades of opposition before women won the vote.', synonyms: ['voting rights', 'franchise', 'enfranchisement', 'ballot'] },
+
+  // ── alea (chance/dice) ────────────────────────────────────────────────────
+  { id: 'aleatory', word: 'aleatory', pos: 'adjective', greCategory: 4, connotation: 'neutral', rootId: 'alea', prefixId: null, suffixId: null, definition: 'depending on the throw of a die or on chance; random; unpredictable', exampleSentence: 'The composer\'s aleatory technique left certain passages to be determined by random chance.', synonyms: ['random', 'chance-based', 'stochastic', 'unpredictable', 'fortuitous'] },
+
+  // ── fab-fabul (story/conversation) ───────────────────────────────────────
+  { id: 'confabulation', word: 'confabulation', pos: 'noun', greCategory: 4, connotation: 'negative', rootId: 'fab-fabul', prefixId: 'pre-com', suffixId: null, definition: 'the unconscious fabrication of plausible but invented memories; also, casual conversation', exampleSentence: 'The patient\'s vivid confabulation was indistinguishable from actual memory.', synonyms: ['fabrication', 'invention', 'false memory', 'narration'] },
+
+  // ── perquisit (to seek out) ───────────────────────────────────────────────
+  { id: 'perquisites', word: 'perquisites', pos: 'noun', greCategory: 3, connotation: 'positive', rootId: 'perquisit', prefixId: 'pre-per', suffixId: null, definition: 'special rights or privileges belonging to a particular role or position; perks', exampleSentence: 'The executive\'s perquisites included a company car, private travel, and a generous expense account.', synonyms: ['perks', 'benefits', 'privileges', 'entitlements', 'fringe benefits'] },
+
+  // ── cumbre (barrier/burden) ───────────────────────────────────────────────
+  { id: 'encumbrances', word: 'encumbrances', pos: 'noun', greCategory: 3, connotation: 'negative', rootId: 'cumbre', prefixId: 'pre-em-en', suffixId: null, definition: 'burdens or obstacles; legal claims or liabilities attached to property', exampleSentence: 'The estate was transferred free of any encumbrances, clear of all mortgages and liens.', synonyms: ['burdens', 'impediments', 'liabilities', 'obligations', 'hindrances'] },
+
+  // ── glean (to collect bit by bit) ────────────────────────────────────────
+  { id: 'glean', word: 'glean', pos: 'verb', greCategory: 2, connotation: 'neutral', rootId: 'glean-eng', prefixId: null, suffixId: null, definition: 'to gather information or material bit by bit; to gather grain left after a harvest', exampleSentence: 'From scattered interviews, the biographer gleaned a vivid picture of the artist\'s early life.', synonyms: ['gather', 'collect', 'extract', 'derive', 'cull'] },
+
+  // ── pilori (public punishment/ridicule) ──────────────────────────────────
+  { id: 'pillory', word: 'pillory', pos: 'verb', greCategory: 3, connotation: 'negative', rootId: 'pilori', prefixId: null, suffixId: null, definition: 'to attack or ridicule publicly; to expose to public contempt or ridicule', exampleSentence: 'The senator was pilloried in the press for his role in the financial scandal.', synonyms: ['ridicule', 'mock', 'denounce', 'lambaste', 'censure'] },
+
+  // ── plum-eng (something choice/desirable) ────────────────────────────────
+  { id: 'plum', word: 'plum', pos: 'noun', greCategory: 3, connotation: 'positive', rootId: 'plum-eng', prefixId: null, suffixId: null, definition: 'something considered especially desirable; a highly coveted prize, role, or benefit', exampleSentence: 'The ambassadorship to Paris was considered the plum assignment of the foreign service.', synonyms: ['prize', 'windfall', 'gem', 'coveted role', 'prized position'] },
+
+  // ── puffer-eng (inflated praise) ─────────────────────────────────────────
+  { id: 'puffery', word: 'puffery', pos: 'noun', greCategory: 4, connotation: 'negative', rootId: 'puffer-eng', prefixId: null, suffixId: null, definition: 'exaggerated or unsubstantiated praise, especially in advertising or publicity', exampleSentence: 'The product\'s marketing was pure puffery — no independent test could verify its claims.', synonyms: ['hyperbole', 'hype', 'flattery', 'bluster', 'empty praise'] },
+
+  // ── putsch-ger (violent overthrow) ───────────────────────────────────────
+  { id: 'putsch', word: 'putsch', pos: 'noun', greCategory: 4, connotation: 'negative', rootId: 'putsch-ger', prefixId: null, suffixId: null, definition: 'a violent attempt to overthrow a government, especially one planned by a small group', exampleSentence: 'The general\'s putsch collapsed within hours when the army refused to support it.', synonyms: ['coup', 'revolt', 'insurrection', 'uprising', 'overthrow'] },
 ];
 
